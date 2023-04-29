@@ -7,13 +7,13 @@ export default {
       name: 'shortName',
       title: 'Short Name',
       type: 'string',
-      required: true,
+      validation: (Rule) => Rule.required(),
     },
     {
       name: 'longName',
       title: 'Long Name',
       type: 'string',
-      required: true,
+      validation: (Rule) => Rule.required(),
     },
     {
       name: 'colour',

@@ -7,7 +7,7 @@ export default {
       name: 'name',
       title: 'Name',
       type: 'string',
-      required: true,
+      validation: (Rule) => Rule.required(),
     },
     {
       name: 'publicEmail',

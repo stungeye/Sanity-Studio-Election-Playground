@@ -7,19 +7,19 @@ export default {
       name: 'name',
       title: 'Name',
       type: 'string',
-      required: true,
+      validation: (Rule) => Rule.required(),
     },
     {
       name: 'numberOfSeats',
       title: 'Number of Seats',
       type: 'number',
-      required: true,
+      validation: (Rule) => Rule.required(),
     },
     {
+      title: 'Parent Constituency',
       name: 'parent',
       type: 'reference',
       to: [{type: 'constituency'}],
-      required: true,
     },
   ],
 }
