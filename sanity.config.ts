@@ -9,7 +9,7 @@ const devOnlyPlugins = [getStartedPlugin()]
 
 export default defineConfig({
   name: 'default',
-  title: 'teal-sheep',
+  title: 'MB Election Playground',
 
   projectId: 'jcwna4fo',
   dataset: 'production',

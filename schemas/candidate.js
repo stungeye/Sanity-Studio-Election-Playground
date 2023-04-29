@@ -7,6 +7,7 @@ export default {
       name: 'name',
       title: 'Name',
       type: 'string',
+      required: true,
     },
     {
       name: 'publicEmail',
@@ -49,6 +50,7 @@ export default {
       title: 'Constituency',
       type: 'reference',
       to: [{type: 'constituency'}],
+      required: true,
     },
   ],
 }

@@ -7,11 +7,13 @@ export default {
       name: 'shortName',
       title: 'Short Name',
       type: 'string',
+      required: true,
     },
     {
       name: 'longName',
       title: 'Long Name',
       type: 'string',
+      required: true,
     },
     {
       name: 'colour',
